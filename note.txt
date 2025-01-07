@@ -1,0 +1,129 @@
+  <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h3>Consumable Inventory Management System (CIMS)</h3>
+              <p class="fst-italic">
+                "In CIMS, efficiently track, manage, and replenish industries supplies and 
+                other consumable items in real-time, ensuring optimal stock levels, cost control, and 
+                seamless integration with procurement processes."</p>
+         
+          <div class="image col-lg-6" style='background-image: url("assets/img/stock-1.jpg");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <h4>Stock Details</h4>
+              <p>In CIMS software, we have implemented a valuable feature known as the "Low Stock Threshold"
+                 notification system. This feature is designed to proactively alert users when the quantity of a particular 
+                 stock item drops below a predetermined threshold. This ensures that businesses can stay ahead of potential 
+                 stock shortages and take timely actions to replenish their inventory.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Consumption by Department</h4>
+              <p>Empower your business with our Consumption by Department module, enabling granular insights into resource usage, 
+                optimizing departmental consumption patterns, and fostering efficient inventory management 
+                tailored to specific organizational needs.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-images"></i>
+              <h4>Most Using Consumable Items Details </h4>
+              <p>Unlock strategic decision-making with our Most Consumed Items Report, offering valuable insights into top-performing products, 
+                 optimizing inventory levels, and enhancing overall efficiency in your business operations.
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <h4>Reports</h4>
+              <p>"Elevate your business intelligence with our comprehensive reporting system, 
+                delivering Weekly, Monthly, and Summary Reports. Gain valuable analytics to facilitate informed decision-making, 
+                monitor trends, and enhance the efficiency of your inventory management."</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <br>
+          <br>
+        </div>
+
+        <div class="row">
+          <h3>DOCCURE (Doctors Appoinment App)</h3>
+              <p class="fst-italic">
+                "Discover the best doctors, clinic & hospital the city nearest to you.
+                Welcome to our innovative Doctor Appointment App, where we prioritize convenience and 
+                accessibility for patients seeking healthcare. One standout feature is the ability for patients to seamlessly find and 
+                schedule appointments with doctors based on various criteria, making healthcare more personalized and efficient"
+         
+          <div class="image col-lg-6" style='background-image: url("assets/img/Dr-app.avif");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <h4>Features</h4>
+              <p>
+                <div>
+                  <br>
+                  <div>
+                    1. Outpatient Appointments.:
+    
+                   <p> The Outpatient Module is a component or module within a hospital management system 
+                    that specifically addresses the needs and processes associated with outpatient services. 
+                    The Outpatient Module aims to create a comprehensive system for managing outpatient services 
+                    within a healthcare facility. The module will cover various aspects of Patient care, 
+                    from appointment scheduling to billing and follow-up. </p>
+
+                  </div>
+                1. Location-Based Search:
+
+              <p>  "Our app allows patients to find doctors based on their geographical location. 
+                Whether you're at home, work, or traveling, easily discover healthcare providers nearby."</p>
+                
+              </div>
+              <br>
+              <div>
+                2. Specialty and Expertise:
+                
+              <p>  "Tailor your search based on the specific medical expertise you need. 
+                Whether it's a general practitioner, specialist, or a particular medical field, 
+                our app ensures you find the right doctor for your needs."</p>
+                
+              </div><br>
+                <div>
+                  3. Language Preferences:
+                
+                <p>  "We understand the importance of effective communication. 
+                  Patients can choose doctors based on language preferences, 
+                  ensuring clear and comfortable interactions during appointments."</p>
+                
+                </div><br>
+                <div>
+                  4. Gender Preferences:
+                
+                <p>  "Respecting patient preferences, our app allows individuals to search for healthcare providers based on gender, 
+                  fostering a more personalized and comfortable healthcare experience."</p>
+                
+                </div>
+                <br>
+               
+                <div>
+                    6.  Availability and Schedule:
+                
+                   <p> "Effortlessly manage your busy schedule by selecting doctors with availability that aligns with your own. 
+                    Our app displays real-time schedules, enabling you to book appointments at your convenience."</p>
+                   
+                </div><br>
+                <div>
+                  7. Patient Ratings and Reviews:
+                
+                 <p> "Make informed decisions by reviewing patient ratings and testimonials. 
+                  Gain insights into the experiences of others to ensure you're choosing a 
+                  healthcare provider that meets your expectations."</p>
+             
+                </div>
+                     </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
