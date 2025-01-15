@@ -69,7 +69,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Image/Video</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Slots</a></li>
          <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>  -->
          <!-- <li class="dropdown"><a href="#"><span>Other Coursess</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -385,43 +385,58 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Office</h2>
           <p>Check our Office Spaces</p>
-        </div>
-    
+        </div> -->
+        
+
+        <!-- <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets\img\portfolio\hall.1.jpg" class="testimonial-img" alt="">
+                
+              </div>
+            </div>
+          </div>
+
+
+
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <!-- Video Items -->
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap">
-              <video class="responsive-video" autoplay muted loop>
-                <source src="assets/img/portfolio/WhatsApp Video 2024-12-30 at 12.24.40_9c9ccd6d.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
+         
     
-          <div class="col-lg-4 col-md-6 portfolio-item">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
               <video class="responsive-video" autoplay muted loop>
                 <source src="assets/img/portfolio/WhatsApp Video 2024-12-30 at 12.24.40_9c9ccd6d.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
-          </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <video class="responsive-video" autoplay muted loop>
+                <source src="assets/img/portfolio/WhatsApp Video 2024-12-30 at 12.24.40_9c9ccd6d.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div> -->
     
-          <div class="col-lg-4 col-md-6 portfolio-item">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
               <video class="responsive-video" autoplay muted loop>
                 <source src="assets/img/portfolio/WhatsApp Video 2024-12-30 at 12.24.40_9c9ccd6d.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> -->
+        <!-- </div>
+      </div> 
     </section>
     
     <div class="video-section">
@@ -438,22 +453,22 @@
       .portfolio-wrap {
         position: relative;
         width: 100%;
-        aspect-ratio: 16/9; /* Maintain video aspect ratio */
+        height: 100%;
         overflow: hidden; /* Prevent overflow */
       }
     
       .responsive-video {
-        width: 100%;
-        height: 100%;
+        width: 100%; /* Fill container width */
+        height: auto; /* Maintain aspect ratio */
         object-fit: cover; /* Cover the container */
         object-position: center; /* Center the content */
       }
     
       /* Styling for the full-screen video section */
       .video-section {
-        width: 100%; /* Full screen width */
-        aspect-ratio: 16/9; /* Maintain aspect ratio */
-        overflow: hidden;
+        width: 100%; /* Full width */
+        height: 100vh; /* Full viewport height */
+        overflow: hidden; /* Prevent overflow */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -461,28 +476,227 @@
     
       /* Responsive Adjustments */
       @media (max-width: 768px) {
-        .portfolio-wrap {
-          aspect-ratio: 16/9; /* Ensure correct ratio on smaller screens */
-        }
-    
         .video-section {
-          aspect-ratio: 16/9; /* Maintain aspect ratio */
+          height: 50vh; /* Adjust height for smaller screens */
         }
       }
     
       @media (orientation: portrait) {
-        .video-section,
-        .portfolio-wrap {
-          aspect-ratio: 9/16; /* Adjust for vertical orientation */
+        .video-section {
+          height: 100vh; /* Full viewport height for portrait mode */
+        }
+    
+        .responsive-video {
+          width: auto; /* Adjust width dynamically */
+          height: 100%; /* Fill container height */
         }
       }
-    </style>
+    </style> -->
+
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Office</h2>
+          <p>Check our Slots</p>
+        </div>
+
+        
+
+       <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">.NET</li>
+              <li data-filter=".filter-card">Java</li>
+              <li data-filter=".filter-web">Python</li>
+            </ul>
+          </div>
+        </div>  -->
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div>
+            <a >
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="assets\img\portfolio\hall.1.jpg" id="resize" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <!-- <div class="portfolio-links" style="color: white;">cloud-migration</div> -->
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+             
+               <!-- <h4>App 1</h4>
+                <p>App</p> -->
+               <div>
+                <a>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets\img\portfolio\hall.4.jpg" id="resize" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </a>  
+               </div>
+                
+                <div>
+                  <a >
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                      <div class="portfolio-wrap">
+                          <img src="assets\img\portfolio\hall.2.jpg" id="resize" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </a>  
+                </div>
+
+                 <div>
+                  <a >
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                      <div class="portfolio-wrap">
+                          <img src="assets\img\portfolio\hall.5.jpg" id="resize" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </a>  
+                 </div>
+
+                 <div>
+                  <a >
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                      <div class="portfolio-wrap">
+                          <img src="assets\img\portfolio\cloud-migration.jpg" id="resize" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </a>  
+                 </div>
+
+                 <div>
+                  <a >
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                      <div class="portfolio-wrap">
+                          <img src="assets\img\portfolio\hall.6.jpg" id="resize" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </a>  
+                 </div>
+
+
+               <!--  <div>
+                  <a >
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/portfolio/python-new.webp" id="resize" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <div class="portfolio-links" style="color: white;">PYTHON</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>  
+                </div>
+
+                  <div>
+                    <a >
+                      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/java-new.jpg" id="resize" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                            <div class="portfolio-links" style="color: white;">JAVA</div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div>
+                    <a >
+                      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/design.jpg" id="resize" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                            <div class="portfolio-links" style="color: white;">Design And Architecture </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a >
+                      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/systemIntegration.jpg" id="resize" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                            <div class="portfolio-links" style="color: white;">System Integration </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a >
+                      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/API.jpg" id="resize" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                            <div class="portfolio-links" style="color: white;">API And Security </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div> -->
+                  
+                     
+                       <!-- <h4>App 1</h4>
+                        <p>App</p> -->
+                       
+                        
+                        
+          
+         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>  
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                  <a href="technology-net.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        -->       
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+    
     
     
     <!-- End Portfolio Section -->
 
     <!-- ======= Counts Section ======= -->
-    <!--
+<!--     
     <section id="counts" class="counts">
       <div class="container" data-aos="fade-up">
 
@@ -536,93 +750,10 @@
     </section> -->
     <!-- End Counts Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-   <!-- <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-             End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-             End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-             End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-             End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-             End testimonial item 
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>
-  -->
-    <!-- End Testimonials Section -->
+  
 
     <!-- ======= Team Section ======= -->
-    <!--
+    
     <section id="team" class="team">
       <div class="container" data-aos="fade-up">
 
@@ -636,7 +767,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets\img\portfolio\giglabs_logo.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -645,8 +776,8 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Gigabytelabs</h4>
+                <span>the gig software company</span>
               </div>
             </div>
           </div>
@@ -654,7 +785,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -663,13 +794,13 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>GigForcr</h4>
+                <span>software company</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
@@ -685,9 +816,9 @@
                 <span>CTO</span>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <!-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
@@ -703,13 +834,13 @@
                 <span>Accountant</span>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
       </div>
     </section>
-  -->
+ 
     <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
