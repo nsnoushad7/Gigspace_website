@@ -33,6 +33,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+/* h1 welcome text design */
+
+#h1font{
+  font-size: 2rem;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -122,26 +129,27 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background:rgba(1, 44, 86, 0.693);
+  opacity: 1;
 }
 
 #header .logo {
   font-size: 32px;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 2;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #header .logo a {
-  color: #fff;
+  color: #ffffff;
 }
 
 #header .logo a span {
@@ -206,9 +214,9 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #fff;
+  font-size: 20px;
+  /* font-weight: 600; */
+  color: #d4f51a;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -413,17 +421,55 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
-  position: relative;
+  background: url('../img/Images/meetingRoom-2.jpg') no-repeat center center/cover; /* Background image for the section */
+ background-size: cover;
+  position: relative;/* Text color to ensure readability over the image */
 }
+
+.text-board {
+  background: rgba(2, 74, 93, 0.318); /* Semi-transparent white background for text */
+  padding: 20px 30px; /* Padding around the text */
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px; /* Rounded corners for the board */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+}
+
+
+h1 {
+  color: #000; /* Text color inside the board */
+  margin: 0; /* Remove default margins */
+}
+
+#hero {
+  
+  background: 
+    url("../img/Images/MetingRoom-3.jpg") top left / 50% 50% no-repeat,
+    url("../img/Images/balkani-2.jpg ") top right / 50% 50% no-repeat,
+    url("../img/Images/spaces.3.jpg") bottom left / 50% 50% no-repeat,
+    url("../img/Images/single-spaces-1.jpg") bottom right / 50% 50% no-repeat;
+  position: relative;
+  background-size: 50% 50%; /* Default for desktop */
+}
+@media (max-width: 768px) {
+  #hero {
+    background: 
+      url("../img/Images/MetingRoom-3.jpg") top center / 100% 50% no-repeat,
+      url("../img/Images/single-spaces-1.jpg") center center / 100% 50% no-repeat,
+      url("../img/Images/spaces.3.jpg") bottom center / 100% 50% no-repeat;
+      
+    height: auto; /* Adjust height to fit content */
+  }
+}
+
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -588,6 +634,61 @@ section {
   margin-bottom: 0;
 }
 
+
+
+  /* Section Styling */
+  .about {
+    padding: 60px 0;
+  }
+
+  .about .video-container video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Limit height on all screen sizes */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a polished look */
+  }
+  
+  @media (max-width: 768px) {
+    .about .video-container video {
+      max-width: 90%; /* Limit width on smaller screens */
+      margin: 0 auto; /* Center the video */
+      display: block; /* Ensure centering works */
+    }
+  }
+
+  .about .content {
+    padding: 0 20px;
+  }
+
+  .about h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+
+  .about p {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about .row {
+      flex-direction: column;
+    }
+
+    .about .content {
+      padding-top: 20px;
+    }
+  }
+
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -662,12 +763,17 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.services .icon-boxx {
   text-align: center;
   border: 1px solid #ebebeb;
-  padding: 80px 20px;
+  padding: 80px 50px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  background-color: #333;
+  margin-bottom: 60px;
+
+  
+  
 }
 
 .services .icon-box .icon {
@@ -692,7 +798,7 @@ section {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 34px;
 }
 
 .services .icon-box h4 a {
@@ -715,6 +821,49 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
+
+
+/* Add background images for each box */
+.box1 {
+  background-image: url('../img/Images/Recieption-1.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  color: #f4b90a; /* Adjust text color for better visibility */
+  font-weight: 700;
+}
+
+.box2 {
+  background-image: url('../img/Images/MeetingRoom-3.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  color: #f4b90a; /* Adjust text color for better visibility */
+  font-weight: 700;
+}
+
+.box3 {
+  background-image: url('../img/Images/pool-game-2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  color: #f4b90a; /* Adjust text color for better visibility */
+  font-weight: 700;
+}
+
+/* Optional: Style the .icon-box for better layout */
+.icon-box {
+  height: 100%; /* Ensure the box fills the column */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # Cta
