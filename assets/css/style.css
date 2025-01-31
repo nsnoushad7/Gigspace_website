@@ -655,6 +655,7 @@ section {
       margin: 0 auto; /* Center the video */
       display: block;
       padding-top: 20px; /* Ensure centering works */
+      padding-bottom: 20px;
     }
   }
 
