@@ -653,7 +653,8 @@ section {
     .about .video-container video {
       max-width: 90%; /* Limit width on smaller screens */
       margin: 0 auto; /* Center the video */
-      display: block; /* Ensure centering works */
+      display: block;
+      padding-top: 20px; /* Ensure centering works */
     }
   }
 
